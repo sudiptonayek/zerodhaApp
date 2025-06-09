@@ -45,7 +45,7 @@ export default function ResetPassword() {
     setMsg("");
     try {
       const res = await axios.post(
-        `http://localhost:5000/api/client/reset-password/${id}/${token}`,
+        `https://zerodhaapp-ajjs.onrender.com/api/client/reset-password/${id}/${token}`,
         { password: values.password }
       );
       setMsg(res.data.message);
