@@ -8,7 +8,7 @@ function Summary() {
 
   useEffect(() => {
     axios
-      .get("http://localhost:5000/api/client/profile", {
+      .get("https://zerodhaapp-ajjs.onrender.com/api/client/profile", {
         withCredentials: true,
       })
       .then((res) => setUser(res.data))
