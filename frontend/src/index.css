@@ -1,0 +1,31 @@
+*{
+  font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+
+    
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* index.css */
+body.light-mode {
+  background-color: #ffffff;
+  color: #000000;
+}
+
+body.dark-mode {
+  background-color: #121212;
+  color: #ffffff;
+}
+
+
+body.dark-mode .card {
+  background-color: #6b6a6a;
+  color: #ffffff !important;
+  box-shadow: 0 4px 8px rgba(255, 255, 255, 0.05);
+}
+
+body.light-mode .card {
+  background-color: #ffffff;
+  color: #000000;
+}

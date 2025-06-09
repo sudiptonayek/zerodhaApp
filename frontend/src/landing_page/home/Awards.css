@@ -1,0 +1,131 @@
+
+
+.list-item {
+    margin-top: 2rem;
+    padding: 1rem;
+}
+
+ul li{
+    margin: 10px;
+}
+
+.img{
+    width: 90%;
+}
+/* Awards.css */
+
+.awards-container {
+    padding: 20px;
+    background-color: #f9f9f9;
+    /* Light background color */
+}
+
+.awards-content {
+    display: flex;
+    /* Use flexbox for layout */
+    flex-wrap: wrap;
+    /* Allow wrapping on smaller screens */
+    align-items: center;
+    /* Center items vertically */
+    max-width: 1200px;
+    /* Limit the width of the content */
+    margin: 0 auto;
+    /* Center the content */
+}
+
+.image-container {
+    flex: 1;
+    /* Allow the image container to grow */
+    min-width: 300px;
+    /* Minimum width for the image container */
+}
+
+.text-container {
+    flex: 1;
+    /* Allow the text container to grow */
+    min-width: 300px;
+    /* Minimum width for the text container */
+    padding: 20px;
+    /* Padding around the text */
+}
+
+.img-fluid {
+    max-width: 100%;
+    /* Ensure the image is responsive */
+    height: auto;
+    /* Maintain aspect ratio */
+}
+
+h1 {
+    font-size: 2rem;
+    /* Default font size for larger screens */
+    color: #333;
+    /* Dark text color */
+}
+
+p {
+    font-size: 1rem;
+    /* Default font size for paragraph */
+    color: #555;
+    /* Slightly lighter text color */
+}
+
+.list-item {
+    display: flex;
+    /* Use flexbox for the list items */
+    flex-wrap: wrap;
+    /* Allow wrapping on smaller screens */
+}
+
+.list-column {
+    flex: 1;
+    /* Allow each column to grow */
+    min-width: 150px;
+    /* Minimum width for each column */
+    padding: 10px;
+    /* Padding around the columns */
+}
+
+.press-logos {
+    max-width: 100%;
+    /* Ensure the press logos are responsive */
+    height: auto;
+    /* Maintain aspect ratio */
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .awards-content {
+        flex-direction: column;
+        /* Stack items vertically on smaller screens */
+        align-items: center;
+        /* Center items */
+    }
+
+    h1 {
+        font-size: 1.75rem;
+        /* Smaller font size for tablets */
+    }
+
+    p {
+        font-size: 0.9rem;
+        /* Smaller font size for tablets */
+    }
+
+    .list-item {
+        flex-direction: column;
+        /* Stack list items vertically */
+    }
+}
+
+@media (max-width: 480px) {
+    h1 {
+        font-size: 1.5rem;
+        /* Smaller font size for mobile */
+    }
+
+    p {
+        font-size: 0.85rem;
+        /* Smaller font size for mobile */
+    }
+}

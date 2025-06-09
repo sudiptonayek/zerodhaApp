@@ -1,0 +1,112 @@
+
+.col-6 p {
+    color: rgb(92, 89, 89);
+}
+
+.col-6 h1{
+    margin-bottom: 1rem;
+}
+
+/* Education.css */
+
+.education-container {
+    padding: 20px;
+    background-color: #f9f9f9;
+    /* Light background color */
+}
+
+.education-content {
+    display: flex;
+    /* Use flexbox for layout */
+    flex-wrap: wrap;
+    /* Allow wrapping on smaller screens */
+    align-items: center;
+    /* Center items vertically */
+    max-width: 1200px;
+    /* Limit the width of the content */
+    margin: 0 auto;
+    /* Center the content */
+}
+
+.image-container {
+    flex: 1;
+    /* Allow the image container to grow */
+    min-width: 300px;
+    /* Minimum width for the image container */
+}
+
+.text-container {
+    flex: 1;
+    /* Allow the text container to grow */
+    min-width: 300px;
+    /* Minimum width for the text container */
+    padding: 20px;
+    /* Padding around the text */
+}
+
+.img-fluid {
+    max-width: 100%;
+    /* Ensure the image is responsive */
+    height: auto;
+    /* Maintain aspect ratio */
+}
+
+h1 {
+    font-size: 2rem;
+    /* Default font size for larger screens */
+    color: #333;
+    /* Dark text color */
+}
+
+p {
+    font-size: 1rem;
+    /* Default font size for paragraph */
+    color: #797979;
+    /* Slightly lighter text color */
+}
+
+.link {
+    color: #007bff;
+    /* Link color */
+    text-decoration: none;
+    /* Remove underline from link */
+    font-weight: bold;
+    /* Bold text for links */
+}
+
+.link:hover {
+    text-decoration: underline;
+    /* Underline on hover */
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .education-content {
+        flex-direction: column;
+        /* Stack items vertically on smaller screens */
+        align-items: center;
+        /* Center items */
+    }
+
+    h1 {
+        font-size: 1.75rem;
+        /* Smaller font size for tablets */
+    }
+
+    p {
+        font-size: 0.9rem;
+        /* Smaller font size for tablets */
+    }
+}
+
+@media (max-width: 480px) {
+    h1 {
+        font-size: 1.5rem;
+        /* Smaller font size for mobile */
+    }
+
+    p {
+        font-size: 0.85rem;
+        /* Smaller font size for mobile */
+    }
+}

@@ -1,0 +1,35 @@
+
+
+/* Univers.css */
+
+.card {
+    border: none;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    padding: 1rem;
+    border-radius: 10px;
+}
+
+.card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+}
+
+.card img {
+    max-width: 60%;
+    margin: 0 auto;
+    transition: transform 0.3s ease;
+}
+
+.card:hover img {
+    transform: scale(1.05);
+}
+
+@media (max-width: 768px) {
+    .card img {
+        max-width: 70%;
+    }
+
+    .btn {
+        width: 100% ;
+    }
+}

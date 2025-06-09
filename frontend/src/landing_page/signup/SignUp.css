@@ -1,0 +1,123 @@
+.form form{
+    border: 1px solid #b4b0b057;
+    padding: 2rem;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.singup-btn{
+    background-color: #188bef;
+    color: #fff;
+    width: 50%;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 1rem;
+}
+.singup-btn:hover{
+    background-color: #065194;
+    color: #fff;
+}
+.show-btn{
+    background-color: #ffffff;
+   
+    color: #fff;
+    width: 50px;
+    height: 40px;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 1rem;
+    margin-left: 10px;
+}
+.show-icon {
+    font-size: small ;
+    cursor: pointer;
+    color: rgb(209, 206, 206);
+    
+}
+
+.show-btn {
+    position: absolute;
+    right: 0;
+    top: 10px;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.show-icon {
+    font-size: 20px;
+    color: #1976d2;
+}
+
+.singup-btn {
+    padding: 10px 20px;
+    background-color: #1976d2;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    margin-top: 10px;
+    transition: background 0.3s ease;
+}
+
+.singup-btn:hover {
+    background-color: #125ea2;
+}
+
+Link{
+    cursor: pointer;
+    color: #1976d2;
+}
+
+/* Light mode styles */
+input,
+textarea,
+select {
+    background-color: #fff;
+    color: #000;
+    border: 1px solid #ccc;
+}
+
+/* Dark mode styles */
+body.dark-mode input,
+body.dark-mode textarea,
+body.dark-mode select {
+    background-color: #1e1e1e;
+    color: #f0f0f0;
+    border: 1px solid #444;
+}
+label {
+    color: #000;
+}
+
+body.dark-mode label {
+    color: #f0f0f0;
+}
+body.dark-mode .show-icon {
+    color: #f0f0f0;
+}
+
+@media (max-width: 768px) {
+    .container {
+        padding: 20px;
+    }
+
+    .img-fluid {
+        padding: 10px !important;
+    }
+
+    .form {
+        padding: 10px;
+    }
+
+    .show-btn {
+        top: 8px;
+        right: 5px;
+    } }
+
+
+

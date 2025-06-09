@@ -1,0 +1,22 @@
+ul {
+    list-style-type: none;
+}
+h6{
+    padding: 10px;
+    margin-bottom: 1.5rem;
+    
+}
+h6 i{
+    margin: 1rem;
+}
+.row{
+    margin-bottom: 1rem;
+}
+ul li{
+    font-size: small;
+    padding-bottom:10px ;
+}
+h5{
+    
+    margin-bottom: 2rem;
+}

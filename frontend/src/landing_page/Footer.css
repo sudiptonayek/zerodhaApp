@@ -1,0 +1,112 @@
+.footer-logo{
+    width: 40%;
+    
+}
+footer{
+    background-color: #f8f9fa;
+    padding: 20px;
+    margin-top: 20px;
+    border-top: 1px solid #7a7a7b68;
+}
+.social-icons i {
+    
+    margin-right: 20px;
+    font-size: 25px;
+}
+.social-icons i:hover {
+    color: #007bff;
+}
+.footer-logo img{
+    width: 100%;
+    height: auto;
+}
+.social-icons{
+    margin-bottom: 20px;
+}
+.social-icons a{
+    color: #000;
+    text-decoration: none;
+}
+.footer-link{
+    margin-top: 20px;
+}
+.footer-container{
+    background-color: #f8f9fa;
+    padding: 20px;
+    margin-top: 20px;
+   
+}
+    
+.footer-container .row {
+    margin-bottom: 20px;
+}
+
+.footer-link ul {
+    list-style-type: none;
+    padding: 0;
+}
+.footer-link ul li a {
+    text-decoration: none;
+    color: #000;
+    font-size: 12px;
+    transition: color 0.3s;
+}
+.company{
+    font-weight: bold;
+    font-size: 1rem;
+    margin-bottom: 20px;
+}
+.support{
+    font-weight: bold;
+    font-size: 1rem;
+    margin-bottom: 20px;
+}
+.account{
+    font-weight: bold;
+    font-size: 1rem;
+    margin-bottom: 20px;
+}
+
+.footer-disclaimer p{
+    font-size:xx-small;
+    color: #7a7a7b;
+    margin-bottom: 1px !important;
+    text-align: center;
+    margin-top: 0px !important;
+    
+   
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .footer-content {
+        flex-direction: column;
+        /* Stack items vertically on smaller screens */
+        align-items: center;
+        /* Center items */
+    }
+
+    .footer-links {
+        flex-direction: column;
+        /* Stack link columns vertically */
+        align-items: center;
+        /* Center columns */
+    }
+
+    .footer-link-column {
+        margin: 10px 0;
+        /* Margin for vertical spacing */
+    }
+}
+
+@media (max-width: 480px) {
+    .footer-logo {
+        max-width: 80%;
+        /* Smaller logo size for mobile */
+    }
+
+    .footer-disclaimer {
+        font-size: 0.8rem;
+        /* Smaller font size for mobile */
+    }
+}

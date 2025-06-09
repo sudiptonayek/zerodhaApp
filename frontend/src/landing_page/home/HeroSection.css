@@ -1,0 +1,92 @@
+/* HeroSection.css */
+
+.hero-container {
+    padding: 20px;
+    background-color: #f0f8ff;
+    /* Light background color */
+}
+
+.hero-content {
+    max-width: 800px;
+    /* Limit the width of the content */
+    margin: 0 auto;
+    /* Center the content */
+}
+
+.img-fluid {
+    max-width: 100%;
+    /* Ensure the image is responsive */
+    height: auto;
+    /* Maintain aspect ratio */
+}
+
+h1 {
+    font-size: 2.5rem;
+    /* Default font size for larger screens */
+    color: #333;
+    /* Dark text color */
+}
+
+p {
+    font-size: 1.25rem;
+    /* Default font size for paragraph */
+    color: #555;
+    /* Slightly lighter text color */
+}
+
+.btn {
+    padding: 10px 20px;
+    background-color: #007bff;
+    /* Button color */
+    color: white;
+    /* Button text color */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+    width: 200px !important;
+    
+    /* Default font size for button */
+    transition: background-color 0.3s;
+    /* Smooth transition for hover effect */
+}
+
+.btn:hover {
+    background-color: #0056b3;
+    /* Darker shade on hover */
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    h1 {
+        font-size: 2rem;
+        /* Smaller font size for tablets */
+    }
+
+    p {
+        font-size: 1rem;
+        /* Smaller font size for tablets */
+    }
+
+    .btn {
+        width: 100%;
+        /* Full width button on smaller screens */
+    }
+}
+
+@media (max-width: 480px) {
+    h1 {
+        font-size: 1.5rem;
+        /* Smaller font size for mobile */
+    }
+
+    p {
+        font-size: 0.9rem;
+        /* Smaller font size for mobile */
+    }
+
+    .btn {
+        padding: 8px 16px;
+        /* Adjust button padding for mobile */
+    }
+}

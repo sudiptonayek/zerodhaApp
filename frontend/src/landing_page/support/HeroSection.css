@@ -1,0 +1,47 @@
+#hero {
+
+    background-color: #188bef;
+}
+#supportWrapper {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 150px;
+    color: white;
+}
+#supportWrapper a{
+    color: white;
+    text-decoration: underline;
+}
+ol li a{
+    margin: 10px 0;
+    color: white;
+    text-decoration: underline;
+    padding: 10px;
+    margin:  5px;
+    font-size: 16px;
+    line-height: 10px;
+}
+.wrapper{
+    margin:0 140px ;
+}
+.wrapper a{
+    color: white;
+    text-decoration: underline;
+    padding: 10px;
+    margin:  5px;
+    font-size: 14px;
+    line-height: 10px;
+    
+}
+.wrapper input{
+    margin: 10px 0;
+    padding: 20px 50px;
+    border-radius: 5px;
+    border: none;
+    width: 100%;
+    outline: none;
+    
+}
+h5{
+    color: white;
+}
