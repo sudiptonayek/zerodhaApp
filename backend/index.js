@@ -14,7 +14,7 @@ const path = require("path");
 
 const app = express();
 app.use(cors({
-  origin:["http://localhost:5173","http://localhost:5174"], 
+  origin:["https://zerodhaapp-frontend-ljoz.onrender.com","https://zerodhaapp-dashboard.onrender.com"], 
   credentials: true,
 
 }));
