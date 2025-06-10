@@ -32,7 +32,7 @@ function LoginPage() {
           showConfirmButton: false,
           timer: 1500,
         }).then(() => {
-          window.location.href = "http://localhost:5174";
+          window.location.href = "https://zerodhaapp-dashboard.onrender.com";
         });
       } catch (err) {
         const backendMsg = err.response?.data?.message || "Unknown error";
