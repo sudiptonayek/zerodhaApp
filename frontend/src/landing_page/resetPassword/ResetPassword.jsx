@@ -3,7 +3,7 @@ import { useParams, useNavigate } from "react-router-dom";
 import axios from "axios";
 import { Formik, Form, Field, ErrorMessage } from "formik";
 import * as Yup from "yup";
-import { Blocks } from "react-loader-spinner";
+import { Ring } from "react-awesome-spinners";
 
 export default function ResetPassword() {
   const { id, token } = useParams();
@@ -61,7 +61,7 @@ export default function ResetPassword() {
     return (
       <div className="d-flex vh-100 align-items-center justify-content-center">
         <div className="spinner-border text-primary" role="status">
-          <span className="visually-hidden"><Blocks visible={true} /></span>
+          <span className="visually-hidden"><Ring visible={true} /></span>
         </div>
       </div>
     );
