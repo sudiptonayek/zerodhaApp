@@ -45,6 +45,7 @@ const SigninController = async (req, res) => {
       secure: true, 
       sameSite: "none", // Use 'none' for cross-site cookies
       maxAge:  60 * 60 * 1000, // 1 hour
+      domain:".onrender.com" 
     });
 
     // Respond with token
