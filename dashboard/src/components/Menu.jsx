@@ -35,7 +35,7 @@ function Menu() {
         {},
         { withCredentials: true }
       );
-      window.location.replace("http://localhost:5173/signin");
+      window.location.replace("https://zerodhaapp-frontend-ljoz.onrender.com/signin");
     } catch (error) {
       console.error("Logout failed:", error);
     }
