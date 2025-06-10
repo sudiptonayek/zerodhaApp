@@ -17,7 +17,7 @@ function Menu() {
 
     useEffect(() => {
       axios
-        .get("http://localhost:5000/api/client/profile", {
+        .get("https://zerodhaapp-ajjs.onrender.com/api/client/profile", {
           withCredentials: true,
         })
         .then((res) => setUser(res.data))
@@ -31,7 +31,7 @@ function Menu() {
   const handleLogout = async () => {
     try {
       await axios.post(
-        "http://localhost:5000/api/client/logout",
+        "https://zerodhaapp-ajjs.onrender.com/api/client/logout",
         {},
         { withCredentials: true }
       );
